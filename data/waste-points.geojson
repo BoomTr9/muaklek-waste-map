@@ -1,0 +1,151 @@
+{
+  "type": "FeatureCollection",
+  "name": "muaklek-waste-points",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sapsanun-landfill",
+        "name": "ศูนย์กำจัดขยะมูลฝอย อบต.ซับสนุ่น",
+        "category": "facility",
+        "address": "หมู่ 4 ต.ซับสนุ่น อ.มวกเหล็ก",
+        "tambon": "ซับสนุ่น",
+        "hours": "จ.–ศ. 08:30–16:30 น. (ติดต่อ อบต.ซับสนุ่น)",
+        "accepts": [
+          "ขยะมูลฝอยชุมชน",
+          "ขยะทั่วไป"
+        ],
+        "note": "บ่อเทกองขนาด 49 ไร่ 3 งาน 98 ตร.วา รับขยะจาก อบต. ประมาณ 2 ตัน/วัน — ติดต่อ อบต.ซับสนุ่นก่อนนำขยะไปทิ้ง",
+        "phone": "",
+        "accuracy": "pcd",
+        "source_label": "ข้อมูลสถานที่กำจัดขยะมูลฝอย จ.สระบุรี 2568 (สคพ.7)",
+        "source_url": "https://saraburi.gdcatalog.go.th/dataset/cb262063-bfc5-47b8-89b3-3af6f52a95bc",
+        "updated": "2026-11",
+        "short_name": "บ่อขยะ อบต.ซับสนุ่น"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.2593431,
+          14.89081054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lamsomphung-landfill",
+        "name": "ศูนย์กำจัดขยะมูลฝอย อบต.ลำสมพุง",
+        "category": "facility",
+        "address": "หมู่ 10 ต.ลำสมพุง อ.มวกเหล็ก",
+        "tambon": "ลำสมพุง",
+        "hours": "ติดต่อ อบต.ลำสมพุง",
+        "accepts": [
+          "ขยะมูลฝอยชุมชน"
+        ],
+        "note": "พื้นที่ 1 ไร่ รับขยะประมาณ 4 ตัน/วัน — อบต.ลำสมพุงมีธนาคารขยะเคลื่อนที่รับซื้อของรีไซเคิลเป็นรอบที่หมู่ 4–7",
+        "phone": "",
+        "accuracy": "pcd",
+        "source_label": "ข้อมูลสถานที่กำจัดขยะมูลฝอย จ.สระบุรี 2568 (สคพ.7)",
+        "source_url": "https://saraburi.gdcatalog.go.th/dataset/cb262063-bfc5-47b8-89b3-3af6f52a95bc",
+        "updated": "2026-11",
+        "short_name": "บ่อขยะ อบต.ลำสมพุง"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3450527,
+          14.96136131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lamphayaklang-landfill",
+        "name": "ศูนย์กำจัดขยะมูลฝอย อบต.ลำพญากลาง",
+        "category": "facility",
+        "address": "บ้านหนองดินแดง หมู่ 11 ต.ลำพญากลาง อ.มวกเหล็ก",
+        "tambon": "ลำพญากลาง",
+        "hours": "ติดต่อ อบต.ลำพญากลาง",
+        "accepts": [
+          "ขยะมูลฝอยชุมชน"
+        ],
+        "note": "บ่อเทกองขนาด 3 ไร่ รับขยะประมาณ 4 ตัน/วัน (ข้อมูลปี 2565)",
+        "phone": "",
+        "accuracy": "pcd",
+        "source_label": "ข้อมูลสถานที่กำจัดขยะมูลฝอย จ.สระบุรี (สคพ.7)",
+        "source_url": "https://saraburi.gdcatalog.go.th/dataset/cb262063-bfc5-47b8-89b3-3af6f52a95bc",
+        "updated": "2026-11",
+        "short_name": "บ่อขยะ อบต.ลำพญากลาง"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.418255,
+          14.937431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "muaklek-municipal-landfill",
+        "name": "บ่อขยะเทศบาลตำบลมวกเหล็ก (บ้านเขามะกอก)",
+        "category": "facility",
+        "address": "บ้านเขามะกอก หมู่ 5 ต.มิตรภาพ อ.มวกเหล็ก",
+        "tambon": "มิตรภาพ",
+        "hours": "ติดต่อเทศบาลตำบลมวกเหล็ก",
+        "accepts": [
+          "ขยะมูลฝอยชุมชน"
+        ],
+        "note": "ที่ดิน 20 ไร่ ห่างจากเทศบาลราว 5 กม. มีรายงานปิดปรับปรุงเพื่อยกระดับมาตรฐาน — โทรยืนยันกับเทศบาลก่อนเดินทาง",
+        "phone": "",
+        "accuracy": "osm",
+        "source_label": "OpenStreetMap way/460254412 · เอกสารเทศบาลตำบลมวกเหล็ก",
+        "source_url": "https://www.openstreetmap.org/way/460254412",
+        "updated": "2026-11",
+        "short_name": "บ่อขยะ ทต.มวกเหล็ก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1646916,
+          14.6901505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "muaklek-municipal-wastebank",
+        "name": "ธนาคารขยะชุมชน เทศบาลตำบลมวกเหล็ก",
+        "category": "recycle",
+        "address": "สำนักงานเทศบาลตำบลมวกเหล็ก ถ.เทศบาล 1 ต.มวกเหล็ก",
+        "tambon": "มวกเหล็ก",
+        "hours": "กิจกรรมซื้อขายขยะเดือนละครั้ง (สอบถามเทศบาล)",
+        "accepts": [
+          "ขวด PET",
+          "กระดาษ",
+          "โลหะ",
+          "อะลูมิเนียม",
+          "พลาสติกสะอาด"
+        ],
+        "note": "ธนาคารขยะ 8 ชุมชน กิจกรรมซื้อขายหลักจัดที่โรงเรียนผู้สูงอายุ หมู่ 3 — สอบถามวันกิจกรรมล่วงหน้าที่เทศบาล",
+        "phone": "",
+        "accuracy": "osm",
+        "source_label": "OpenStreetMap way/392905405 · ข่าวเทศบาลตำบลมวกเหล็ก",
+        "source_url": "https://www.muaklek.go.th/web/view_news.php?id=1021",
+        "updated": "2026-11",
+        "short_name": "ธนาคารขยะ ทต.มวกเหล็ก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1990386,
+          14.6565061
+        ]
+      }
+    }
+  ]
+}
