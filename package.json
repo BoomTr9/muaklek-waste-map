@@ -1,0 +1,17 @@
+{
+    "name": "muaklek-waste-map",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "serve": "node scripts/serve.mjs",
+        "tiles": "node scripts/pmtiles_to_zxy.mjs data/muaklek.pmtiles site/tiles 15",
+        "boundary": "node scripts/build_boundary.mjs"
+    },
+    "dependencies": {
+        "pmtiles": "^4.5.0"
+    },
+    "devDependencies": {
+        "playwright": "^1.55.0"
+    },
+    "description": "Muak Lek waste drop-off map with Protomaps tiles and routing"
+}

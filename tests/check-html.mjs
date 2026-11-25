@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const html = fs.readFileSync('site/index.html', 'utf8');
+const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
+const duplicates = ids.filter((id, i) => ids.indexOf(id) !== i);
+console.log('ids:', ids.length, 'duplicates:', duplicates.length ? duplicates : 'none');
+console.log('dialogs:', (html.match(/<dialog/g) || []).length, 'closers:', (html.match(/<\/dialog>/g) || []).length);
+console.log('forms:', (html.match(/<form/g) || []).length, 'closers:', (html.match(/<\/form>/g) || []).length);
+const idsInJs = [...fs.readFileSync('site/assets/app.js', 'utf8').matchAll(/\$\('#([a-z0-9-]+)'\)/gi)].map((m) => m[1]);
+const missing = [...new Set(idsInJs)].filter((id) => !ids.includes(id));
+console.log('js-referenced ids missing from html:', missing.length ? missing : 'none');

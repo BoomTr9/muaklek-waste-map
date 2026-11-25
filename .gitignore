@@ -1,0 +1,12 @@
+node_modules/
+build/
+tests/screens/
+tests/*.log
+tools/*.exe
+tools/*.zip
+tools/*.log
+tools/gh/
+data/extract.log
+data/sao-sites.json
+data/osm-*.json
+data/osm-*.txt
