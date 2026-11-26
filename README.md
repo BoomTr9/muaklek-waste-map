@@ -2,6 +2,8 @@
 
 เว็บแอปแผนที่จุดทิ้งขยะ/จุดรับรีไซเคิลเฉพาะ **อำเภอมวกเหล็ก จังหวัดสระบุรี** พร้อมคำนวณเส้นทางด้วยรถยนต์ จักรยาน และการเดิน
 
+**Live:** https://boomtr9.github.io/muaklek-waste-map/ · **Repo:** https://github.com/BoomTr9/muaklek-waste-map
+
 - ฐานแผนที่ **Protomaps** ตัดเฉพาะพื้นที่อำเภอ (z0–15) เก็บไว้ในโปรเจกต์ ไม่ต้องพึ่ง tile server ภายนอก
 - ข้อมูลจุดจากหน่วยงานรัฐ (สคพ.7 / GD Catalog สระบุรี) และ OpenStreetMap
 - เส้นทางจาก Valhalla (สำรอง: OSRM) — ฟรี ไม่ใช้ API key
